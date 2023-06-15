@@ -1,0 +1,9 @@
+torch==2.0.0
+torchvision==0.15.1
+streamlit==1.22.0
+opencv-python==4.7.0.72
+pandas==1.5.3
+plotly==5.14.1
+Pillow==9.5.0
+pycocotools==2.0.6
+decorator==5.1.1
