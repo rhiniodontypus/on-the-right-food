@@ -1,4 +1,19 @@
-# On the right food
+# On The Right Food
+
+<img src="images/on_the_right_food_logo_dark.png" width = 200>
+
+## About our Project
+
+Food plays a crucial role in our daily lives. Image-based food recognition is therefore quite essential and helpful in various areas, including personal diet management, healthcare and sustainability.
+
+Our project "On The Right Food" utilized image processing and machine learning to simplify and streamline this process. We aimed to build and train a deep learning model to detect and segment foods from images. By training the model with a real-world food dataset, we tackled the challenges posed by the diversity and complexity of actual food images. 
+
+For proof-of-concept, our team also developed a user-friendly web application with our model. By simply uploading the food image, people could easily check their food intake and obtain the analysis result per E-mail.
+
+### Team members
+Frederik Vath (aka Jay) - [Linkedin](https://www.linkedin.com/in/frederik-vath-1b91ab51/)  
+Igor Gamayun - [Linkedin](https://www.linkedin.com/in/igor-gamayun-96aa2254/)     
+Shuo Feng - [Linkedin](https://www.linkedin.com/in/shuo-feng-4884b025b/)   
 
 ## Introduction
 
