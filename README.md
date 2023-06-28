@@ -22,26 +22,24 @@ For proof-of-concept, our team also created a user-friendly demo web application
 
 ### Final presentation
 
--- [Presentation slides](https://github.com/rhiniodontypus/on-the-right-food/blob/branch_shuo/presentation_OnTheRightFood.pdf)  
--- [Presentation video](https://www.youtube.com/watch?v=ymSrVHMmX54)
+- [Presentation slides](https://github.com/rhiniodontypus/on-the-right-food/blob/branch_shuo/presentation_OnTheRightFood.pdf)  
+- [Presentation video](https://www.youtube.com/watch?v=ymSrVHMmX54)
 
-## About our Web App
-
-Our interactive demo web app was built with Streamlit.
+---
 
 ## 1. Prerequisites
 
 1. Create the model
 
-    For running the "On the right food" - food segmentation prediction web app you need to have a trained model. We created the [otfr-training repository](https://github.com/rhiniodontypus/otrf-training) to guide you how to preprocess your image files, create a corresponding annotations.json file and train the model.
+    For running the "On the right food" - food segmentation prediction web app you need to have a trained model. For this we set up a virtual machine (VM) on the Google Cloud Platform (GCP). We created the [otrf-training](https://github.com/rhiniodontypus/otrf-training) repository to guide you how to preprocess your image files, create a corresponding annotations.json file and train the model. 
     
 2. Transfer the model to your local machine
 
-    After the training is completed get the model file `model.pth` from the training `output` folder in the vm. For this you can use [file_transfer_vm.py](file_transfer_vm.py) by adding your GCP login credentials and the IP address of your virtual machine.
+    After the training is completed get the model file `model.pth` from the training `output` folder on the VM. For this you can use [file_transfer_vm.py](file_transfer_vm.py) by adding your GCP login credentials and the IP address of your VM.
 
-5. Place the trained `model.pth` file in the `./output` folder.
+5. Place the trained `model.pth` file in the local `./output` folder.
 
-6. Place the `annotations.json` file in the `./annotations` folder.
+6. Place the `annotations.json` file in the local `./annotations` folder.
 
 7. If you use different names than the default ones, update the file names of your personal `model.pth` and `annotations.json` in the [settings.py](./config/settings.py).
 
