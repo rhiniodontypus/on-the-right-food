@@ -16,20 +16,19 @@ You can also leave it empty.
 """
 VM_IP = ""
 # type your username of your virtual machine
-VM_USERNAME = "username_on_vm"
+VM_USERNAME = "user"
 VM_HOME_PATH = "/home/user/"
 # specify your ssh folder
 LOCAL_PATH_PRIVATE_KEY = "/home/user/.ssh/google_compute_engine"
  # specify your local folder to download to
-LOCAL_DOWNLOAD_PATH = "/home/user/downloads"    
+LOCAL_DOWNLOAD_PATH = "./"     
 """ 
 Type here the name of the folders you want to access on your virtual machine. 
 You can define as many folders as you like.
 """
-VM_DIR = ['on-the-right-food',
-          'on-the-right-food/data'
-          #'folder2', 
-          #'folder2/subfolder2'
+VM_DIR = ['otrf-training',
+          'otrf-training/data/',
+          'otrf-training/output/'
 ]
 
 
