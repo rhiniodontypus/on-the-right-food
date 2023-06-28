@@ -26,10 +26,10 @@ LOCAL_DOWNLOAD_PATH = "/home/user/downloads"
 Type here the name of the folders you want to access on your virtual machine. 
 You can define as many folders as you like.
 """
-VM_DIR = ['folder1',
-          'folder1/subfolder1',
-          'folder2', 
-          'folder2/subfolder2'
+VM_DIR = ['on-the-right-food',
+          'on-the-right-food/data'
+          #'folder2', 
+          #'folder2/subfolder2'
 ]
 
 
