@@ -1,13 +1,33 @@
-# On the right food
+# On The Right Food
 
-## Introduction
+<img src="images/on_the_right_food_logo_dark.png" width = 200>
 
-"On the right food" is a web application created with Streamlit that can classify and segment different foods from real world images. It was our Capstone Project of the Data Science Bootcamp at neuefische.
+## About our Project
 
-We used a Convolutional Neural Network (CNN) to create a prediction model using the dataset from [AICrowd](https://link.to/thedataset).
+This is our Capstone project for the Data Science Bootcamp at neuefische.
 
-A video of our presentation of the project is available [here](https://www.youtube.com/watch?v=ymSrVHMmX54).
-The presentation can be downloaded [here](https://google_drive.com)
+### Introduction
+
+Food plays a crucial role in our daily lives. Image-based food recognition is therefore quite essential and helpful in various areas, including personal diet management, healthcare and sustainability.
+
+Our project "On The Right Food" utilized image processing and machine learning to simplify and streamline this process. We aimed to build and train a deep learning model to detect and segment foods from images. By training the model with the real-world food [dataset from AICrowd](https://www.aicrowd.com/challenges/food-recognition-benchmark-2022), we tackled the challenges posed by the diversity and complexity of actual food images. 
+
+For proof-of-concept, our team also created a user-friendly demo web application with our model. A future application could be that people can easily check their food intake and obtain the analysis result per E-mail by simply uploading the food image.
+
+
+### Team members
+- Frederik Vath - [LinkedIn](https://www.linkedin.com/in/frederik-vath-1b91ab51/)  
+- Igor Gamayun - [LinkedIn](https://www.linkedin.com/in/igor-gamayun-96aa2254/)     
+- Shuo Feng - [LinkedIn](https://www.linkedin.com/in/shuo-feng-4884b025b/)   
+
+### Final presentation
+
+-- [Presentation slides](https://github.com/rhiniodontypus/on-the-right-food/blob/branch_shuo/presentation_OnTheRightFood.pdf)  
+-- [Presentation video](https://www.youtube.com/watch?v=ymSrVHMmX54)
+
+## About our Web App
+
+Our interactive demo web app was built with Streamlit.
 
 ## 1. Prerequisites
 
