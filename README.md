@@ -1,4 +1,4 @@
-# On The Right Food - A web app for food segmentation of real-world food images
+# On The Right Food - Food segmentation and categorization of real-world food images
 
 <img src="images/on_the_right_food_logo_dark.png" width = 300>
 
