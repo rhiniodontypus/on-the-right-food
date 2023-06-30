@@ -19,7 +19,7 @@ For proof-of-concept, our team also created a user-friendly demo web application
 
 ### **Future application**
 
-A future application could be to estimate the absolute amount of food, e.g. through LiDAR scanner or similar technologies used for augmented reality and combine the values with a nutrition database. This would allow users and health personnel to easily check and track their food intake.
+A future application could be to estimate the absolute amount of food, e.g. through LiDAR scanner or similar technologies used for augmented reality and combine the values with a nutrition database. This would allow users and health personnel to easily check and track food intake.
 
 
 ### **Team members**
