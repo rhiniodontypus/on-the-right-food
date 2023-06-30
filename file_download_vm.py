@@ -17,8 +17,9 @@ You can also leave it empty.
 VM_IP = ""
 # type your username of your virtual machine
 VM_USERNAME = "user"
+# type your username of your home folder on your vm
 VM_HOME_PATH = "/home/user/"
-# specify your ssh folder
+# specify your local ssh folder
 LOCAL_PATH_PRIVATE_KEY = "/home/user/.ssh/google_compute_engine"
  # specify your local folder to download to
 LOCAL_DOWNLOAD_PATH = "./"     
