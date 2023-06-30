@@ -19,7 +19,7 @@ For proof-of-concept, our team also created a user-friendly demo web application
 
 ### **Future application**
 
-A future application could be to estimate the absolute amount of food, e.g. through LiDAR scanner or similar technologies used for augmented reality and combine the values with a nutrition database. This would allow users and health personnel to easily check and track food intake.
+A future application could be to estimate the absolute amount of food, e.g. through LiDAR scanner or similar technologies used for augmented reality and combine the values with a nutrition database. This would allow users and health personnel to easily check and track the food intake.
 
 
 ### **Team members**
@@ -38,7 +38,7 @@ A future application could be to estimate the absolute amount of food, e.g. thro
 
 1. Create the model
 
-    For running the "On the right food" - food segmentation prediction web app you need to have a trained model. For this we set up a virtual machine (VM) on the Google Cloud Platform (GCP). We created the [otrf-training](https://github.com/rhiniodontypus/otrf-training) repository to guide you how to preprocess your image files, create both a corresponding annotations.json file and a prediciton model. 
+    For running the "On the right food" - food segmentation prediction web app you need to have a trained model. For this we set up a virtual machine (VM) on the Google Cloud Platform (GCP). We created the [on-the-right-food-training](https://github.com/rhiniodontypus/on-the-right-food-training) repository to guide you how to preprocess your image files, create both a corresponding annotations.json file and a prediciton model. 
    
 ## **2. Web App Installation**
 
@@ -71,7 +71,7 @@ Make sure you use a pip version <= 23.0.1. Otherwise the installation of detectr
 
 1. Transfer the model from the VM to your local machine
 
-    After the training is completed get the model file `model_final.pth` from the `/home/user/otrf-training/output/` folder on the VM. For this you can use [file_download_vm.py](file_download_vm.py) by adding your GCP login credentials and the IP address of your VM. This requires to have SSH connections configured as described in [About SSH connections.
+    After the training is completed get the model file `model_final.pth` from the `/home/user/on-the-right-food-training/output/` folder on the VM. For this you can use [file_download_vm.py](file_download_vm.py) by adding your GCP login credentials and the IP address of your VM. This requires to have SSH connections configured as described in [About SSH connections.
 ](https://cloud.google.com/compute/docs/instances/ssh)
 
 2. Place the trained `model_final.pth` file in the local `./on-the-right-food/output/` folder.
