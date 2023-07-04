@@ -87,4 +87,4 @@ Make sure you use a pip version <= 23.0.1. Otherwise the installation of detectr
     `streamlit run main.py`
 
     The app should open automatically in your web browser. Alternatively you can open it with [http://localhost:8501](http://localhost:8501).
-2. Upload your image
+2. Upload your image.
