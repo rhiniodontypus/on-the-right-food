@@ -27,9 +27,9 @@ LOCAL_DOWNLOAD_PATH = "./"
 Type here the name of the folders you want to access on your virtual machine. 
 You can define as many folders as you like.
 """
-VM_DIR = ['otrf-training',
-          'otrf-training/data/',
-          'otrf-training/output/'
+VM_DIR = ['on-the-right-food-training',
+          'on-the-right-food-training/data/',
+          'on-the-right-food-training/output/'
 ]
 
 
